@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Menu.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Menu::lastIndex。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Menu::{ctor}</FUNCTION>
+    <DECORATED>??0T_Menu@@QAE@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Menu::lastIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Menu.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Menu::MaxMenuItemLen。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Menu::{ctor}</FUNCTION>
+    <DECORATED>??0T_Menu@@QAE@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Menu::MaxMenuItemLen</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::width。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::height。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::isBold。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::isBold</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::align。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::align</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::fontName。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::fontName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::space。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::space</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Menu.cpp</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“sAlign”。</DESCRIPTION>
+    <FUNCTION>T_Menu::GetAlignment</FUNCTION>
+    <DECORATED>?GetAlignment@T_Menu@@IAE?AW4StringAlignment@Gdiplus@@XZ</DECORATED>
+    <FUNCLINE>227</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“sAlign”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==1”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==2”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“sAlign”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

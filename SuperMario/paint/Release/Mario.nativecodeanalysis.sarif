@@ -1,0 +1,589 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 T_Layer::LayerTypeID。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "T_Layer::{ctor}",
+                  "decoratedName": "??0T_Layer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "T_Layer::LayerTypeID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 T_Layer::Width。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "T_Layer::{ctor}",
+                  "decoratedName": "??0T_Layer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "T_Layer::Width"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 T_Layer::X。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "T_Layer::{ctor}",
+                  "decoratedName": "??0T_Layer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "T_Layer::X"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 T_Layer::Y。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "T_Layer::{ctor}",
+                  "decoratedName": "??0T_Layer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "T_Layer::Y"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 T_Layer::Visible。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "T_Layer::{ctor}",
+                  "decoratedName": "??0T_Layer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "T_Layer::Visible"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 T_Layer::zorder。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "T_Layer::{ctor}",
+                  "decoratedName": "??0T_Layer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "T_Layer::zorder"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 T_Layer::Height。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "T_Layer::{ctor}",
+                  "decoratedName": "??0T_Layer@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "T_Layer::Height"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“PLAYERSTATUS”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/第六版/第五版 测试/paint/paint/Mario.h"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 7,
+                  "endLine": 45,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Mario::setStaStus",
+                  "decoratedName": "?setStaStus@Mario@@QAEXW4PLAYERSTATUS@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31104.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x000961F0 -il C:\\Users\\bosto\\AppData\\Local\\Temp\\_CL_9ea69e10ast -typedil -f Mario.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131104 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oi -ltcg -DCODE_ANALYSIS -DWIN32 -DNDEBUG -D_WINDOWS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -FoRelease\\Mario.obj -FdRelease\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory E:\\第六版\\第五版 测试\\paint\\paint -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I E:\\第六版\\第五版 测试\\paint\\paint\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I E:\\第六版\\第五版 测试\\paint\\paint\\Include\\um -I E:\\第六版\\第五版 测试\\paint\\paint\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Layer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0c1d56d2057586537a41ebdd674e49b6fc1f2c3fc743218a45590d97fd8fe41c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_sprite.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3c4aa36c7df99171c41e83f803545f5fae47dfcbf823593ea8cf834dd9172d41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_sprite.h"
+          },
+          "hashes": {
+            "sha-256": "5d562b9230ffe63d6a631bdb98cec7da348c44e9e982945f2bb98302a5e045c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_graph.h"
+          },
+          "hashes": {
+            "sha-256": "4196d90c94de8f840377c0d1340f22c6eab273f4fdb9a759241f8a2437cb966f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_config.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fd79f726e6f19522d220923dabdab3ced93f99cee4b3b658b00c5c3b2a2eecc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_map.h"
+          },
+          "hashes": {
+            "sha-256": "e4955433a35095491db99dad3c8fa93b8b9a6a2d6ffbd118578c27c76460e6cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_util.h"
+          },
+          "hashes": {
+            "sha-256": "f3ef3fa33932368ffc7e32ae556ee9c9895e63ddb2f71199aabab4c712a66219"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_scene.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b43fd4301d86eda212cfc4b01a39b06edfe3019031caf43a5ed6c5cfeba05f0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_scene.h"
+          },
+          "hashes": {
+            "sha-256": "067a3f054705cba90f44fac3cefc80305dc4d1af26b7c8fb30b238dedd59a9e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Music.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ec1d71053470934f6ffd8bf9222b1d90c73b252d9d628b3f2ee233e1781d8a4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_music.h"
+          },
+          "hashes": {
+            "sha-256": "0cde06b43f30598d1c93176df2aba4edc64b719746cfd10bad23b3b96020649e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Menu.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5466c95dd5e842bd9c4f9184e71e04e9a99ea9b9a389e9725f70a9fd3274805f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_menu.h"
+          },
+          "hashes": {
+            "sha-256": "8e92c1890c88d86aa4dfe84bd9bf63cf700f64e8f44acedb7e460af34cb10f01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_audio.h"
+          },
+          "hashes": {
+            "sha-256": "114b45039a30de8d6db3818695cae21de4ce5c8afaa6d7118e6a5e624ea40a51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Map.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0e7454b050c0984203f55507431283290ca321c43f56080a4bb3064950fbb5f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Graph.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7154cfac643a9745c8c2a478a0b9f8735b9a44c3b8d6b485f08a90b6e7824b96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Engine.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c5af5107ca06eafcd90ca079050d023322763a5aa936fa2b461eefdd48b0cd6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_engine.h"
+          },
+          "hashes": {
+            "sha-256": "5d8201c5e3ba1a8da8fd0e8d3288eba2742e8615935fbaf77b9f2c7c155762f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_display.h"
+          },
+          "hashes": {
+            "sha-256": "643ea6caefb287b94357cbf2f28817b6897fa8d55b13dffa7b32fde9e9207896"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_display.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "14079755c5d80f7b95abbcc6a2697e7a6aed8e09ce73fdcbad5badf2a13f3347"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/T_Audio.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "31682c9833ccdcdf6dd25717c7ef233f27ee00c56218388dfbdcc9cf5f3c0cde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_ai.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b5c89e87c2f63088ff4f575f481fcebd2d64f24346a4716c92f7ddfeb136fffb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/t_ai.h"
+          },
+          "hashes": {
+            "sha-256": "13cb68c23cbddaba0286c0acfbea57f53bbe5037f9a60d26ef34db2d494f983b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/TinyEngine/Mymenu.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f6e5a322eca2b3d64d6ae66dd00dc6156e3aafeffabbb843f4101b09d9e0bf98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/tinyengine/mymenu.h"
+          },
+          "hashes": {
+            "sha-256": "828cd4e2af99463760fed8844e8a188274046f44234e6b4d7831d1a56ad20fee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/onlineplayer.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/MushRoom.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cd8c56740b588bc7efd32d6ba7cf55528b3267bb206e1fff8a0101aab48860c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/mushroom.h"
+          },
+          "hashes": {
+            "sha-256": "6ebbb51495c35c19b87ed76771a496096366ea8d6145e130a48e2468a72b94da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/messagemenu.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "81ea73c2b491940615ddfbc6e136d1819f4bfc092d0669fce39ade68ae303064"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/messagemenu.h"
+          },
+          "hashes": {
+            "sha-256": "ba1818de8ab7c3dca9d5f002defc0f800ca3d28ee5f0dbfb17b26c99f1c94d4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/第六版/第五版 测试/paint/paint/Mario.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a04456eecea394763db34736d134e8e9e5dcc80533109ff09e3888ec6acebcb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/第六版/第五版 测试/paint/paint/mario.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "7200b1e2b9bb2fac5e619ac4dfbd850896f6ffe68adaed545483ff0bd0cce701"
+          }
+        }
+      ]
+    }
+  ]
+}

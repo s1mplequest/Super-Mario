@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Music.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>T_Music::getUniqueAlias</FUNCTION>
+    <DECORATED>?getUniqueAlias@T_Music@@AAEXXZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

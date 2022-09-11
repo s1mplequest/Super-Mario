@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::scrnHeight。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::scrnHeight</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::scrnWidth。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::scrnWidth</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::GameState。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::GameState</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::keyaction1。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::keyaction1</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::m_rcOld。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::m_rcOld</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::style。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::style</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::ex_style。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::ex_style</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::IntervalTime。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::IntervalTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::isAsleep。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::isAsleep</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>311</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>T_Engine::StartEngine</FUNCTION>
+    <DECORATED>?StartEngine@T_Engine@@QAEXXZ</DECORATED>
+    <FUNCLINE>286</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

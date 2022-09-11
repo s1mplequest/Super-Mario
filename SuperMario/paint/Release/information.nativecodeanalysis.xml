@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::bmbImg。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::bmbImg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::npcNumImg。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::npcNumImg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::looseBlood。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::looseBlood</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::NpcLoadNum。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::NpcLoadNum</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::flagImg。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::flagImg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::startTime。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::startTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::teamImg。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::teamImg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::upgradeGameLevel。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::upgradeGameLevel</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::lifeImg。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::lifeImg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::GameLevel。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::GameLevel</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>207</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>information::updatetime</FUNCTION>
+    <DECORATED>?updatetime@information@@QAEXXZ</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>information::updatetime</FUNCTION>
+    <DECORATED>?updatetime@information@@QAEXXZ</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

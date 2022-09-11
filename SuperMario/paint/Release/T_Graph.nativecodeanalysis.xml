@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Graph::ImageWidth。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Graph::{ctor}</FUNCTION>
+    <DECORATED>??0T_Graph@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Graph::ImageWidth</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Graph::ImageHeight。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Graph::{ctor}</FUNCTION>
+    <DECORATED>??0T_Graph@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Graph::ImageHeight</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “CreateStreamOnHGlobal”。</DESCRIPTION>
+    <FUNCTION>T_Graph::LoadPngResource</FUNCTION>
+    <DECORATED>?LoadPngResource@T_Graph@@SA_NPAUHINSTANCE__@@IAAPAVBitmap@Gdiplus@@@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>"m_hMem" 可以是 "0"，并且是 "GlobalAlloc()`96" 中找到的值的副本。</DESCRIPTION>
+    <FUNCTION>T_Graph::LoadPngResource</FUNCTION>
+    <DECORATED>?LoadPngResource@T_Graph@@SA_NPAUHINSTANCE__@@IAAPAVBitmap@Gdiplus@@@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>"pmem" 可以是 "0"。</DESCRIPTION>
+    <FUNCTION>T_Graph::LoadPngResource</FUNCTION>
+    <DECORATED>?LoadPngResource@T_Graph@@SA_NPAUHINSTANCE__@@IAAPAVBitmap@Gdiplus@@@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pmem”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pmem”是“memcpy”的输入/输出参数(在 c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.31.31103\include\vcruntime_string.h:43 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pmem”不应为 NULL，因为这与“memcpy”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>248</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>"hbitmap" 可以是 "0"，并且是 "CreateDIBSection()`247" 中找到的值的副本。</DESCRIPTION>
+    <FUNCTION>T_Graph::PaintRegion</FUNCTION>
+    <DECORATED>?PaintRegion@T_Graph@@SAXPAUHBITMAP__@@PAUHDC__@@HHHHHHMHE@Z</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

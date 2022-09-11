@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::zorder。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::zorder</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::Width。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::Width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::X。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::X</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::Height。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::Height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::Visible。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::Visible</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::Y。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::Y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::LayerTypeID。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::LayerTypeID</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>Mario.h</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>枚举类型“PLAYERSTATUS”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。</DESCRIPTION>
+    <FUNCTION>Mario::setStaStus</FUNCTION>
+    <DECORATED>?setStaStus@Mario@@QAEXW4PLAYERSTATUS@@@Z</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>“WinMain”的批注不一致: 此实例包含 无批注。请参见 c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006)。</DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain@16</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::gameMenu。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::gameMenu</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::player。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::player</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::mapLayer。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::mapLayer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::flag。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::flag</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::isfold。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::isfold</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::pause。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::pause</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::info。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::info</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::scn_width。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::scn_width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::scn_height。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::scn_height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENUITEM::pos。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENUITEM::{ctor}</FUNCTION>
+    <DECORATED>??0MENUITEM@@QAE@XZ</DECORATED>
+    <FUNCLINE>159</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENUITEM::pos</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::align。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::align</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::height。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::fontName。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::fontName</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::space。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::space</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::width。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::isBold。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::isBold</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

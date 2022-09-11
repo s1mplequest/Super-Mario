@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Layer.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Layer::LayerTypeID。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Layer::{ctor}</FUNCTION>
+    <DECORATED>??0T_Layer@@QAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Layer::LayerTypeID</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>Mario.h</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>枚举类型“PLAYERSTATUS”未设定范围。相比于 "enum"，首选 "enum class" (Enum.3)。</DESCRIPTION>
+    <FUNCTION>Mario::setStaStus</FUNCTION>
+    <DECORATED>?setStaStus@Mario@@QAEXW4PLAYERSTATUS@@@Z</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>gameMusic.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 gameMusic::keys。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>gameMusic::{ctor}</FUNCTION>
+    <DECORATED>??0gameMusic@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>gameMusic::keys</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 information::bmbImg。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>information::{ctor}</FUNCTION>
+    <DECORATED>??0information@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>information::bmbImg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>207</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>information::updatetime</FUNCTION>
+    <DECORATED>?updatetime@information@@QAEXXZ</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>information.cpp</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>information::updatetime</FUNCTION>
+    <DECORATED>?updatetime@information@@QAEXXZ</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>MushRoom.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MushRoom::mushroom_id。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MushRoom::{ctor}</FUNCTION>
+    <DECORATED>??0MushRoom@@QAE@PB_WHHHH@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MushRoom::mushroom_id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>Mymenu.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Mymenu::lastIndex。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Mymenu::{ctor}</FUNCTION>
+    <DECORATED>??0Mymenu@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Mymenu::lastIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENU_INFO::width。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENU_INFO::{ctor}</FUNCTION>
+    <DECORATED>??0MENU_INFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>172</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENU_INFO::width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>Mymenu.cpp</FILENAME>
+      <LINE>215</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“sAlign”。</DESCRIPTION>
+    <FUNCTION>Mymenu::GetAlignment</FUNCTION>
+    <DECORATED>?GetAlignment@Mymenu@@IAE?AW4StringAlignment@Gdiplus@@XZ</DECORATED>
+    <FUNCLINE>200</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>Mymenu.cpp</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“sAlign”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>Mymenu.cpp</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>Mymenu.cpp</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==1”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>Mymenu.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==2”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>Mymenu.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>Mymenu.cpp</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“sAlign”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Audio.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 AudioWave::ckIn。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>AudioWave::{ctor}</FUNCTION>
+    <DECORATED>??0AudioWave@@QAE@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AudioWave::ckIn</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Engine::scrnHeight。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Engine::{ctor}</FUNCTION>
+    <DECORATED>??0T_Engine@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Engine::scrnHeight</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Engine.cpp</FILENAME>
+      <LINE>311</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>T_Engine::StartEngine</FUNCTION>
+    <DECORATED>?StartEngine@T_Engine@@QAEXXZ</DECORATED>
+    <FUNCLINE>286</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Graph::ImageWidth。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Graph::{ctor}</FUNCTION>
+    <DECORATED>??0T_Graph@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Graph::ImageWidth</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “CreateStreamOnHGlobal”。</DESCRIPTION>
+    <FUNCTION>T_Graph::LoadPngResource</FUNCTION>
+    <DECORATED>?LoadPngResource@T_Graph@@SA_NPAUHINSTANCE__@@IAAPAVBitmap@Gdiplus@@@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>"m_hMem" 可以是 "0"，并且是 "GlobalAlloc()`96" 中找到的值的副本。</DESCRIPTION>
+    <FUNCTION>T_Graph::LoadPngResource</FUNCTION>
+    <DECORATED>?LoadPngResource@T_Graph@@SA_NPAUHINSTANCE__@@IAAPAVBitmap@Gdiplus@@@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>"pmem" 可以是 "0"。</DESCRIPTION>
+    <FUNCTION>T_Graph::LoadPngResource</FUNCTION>
+    <DECORATED>?LoadPngResource@T_Graph@@SA_NPAUHINSTANCE__@@IAAPAVBitmap@Gdiplus@@@Z</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pmem”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“pmem”是“memcpy”的输入/输出参数(在 c:\program files\microsoft visual studio\2022\community\vc\tools\msvc\14.31.31103\include\vcruntime_string.h:43 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Graph.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“pmem”不应为 NULL，因为这与“memcpy”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Graph.cpp</FILENAME>
+      <LINE>248</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>"hbitmap" 可以是 "0"，并且是 "CreateDIBSection()`247" 中找到的值的副本。</DESCRIPTION>
+    <FUNCTION>T_Graph::PaintRegion</FUNCTION>
+    <DECORATED>?PaintRegion@T_Graph@@SAXPAUHBITMAP__@@PAUHDC__@@HHHHHHMHE@Z</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\第六版\第五版 测试\paint\paint\tinyengine\</FILEPATH>
+        <FILENAME>t_graph.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Map.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Map::hbmp_old。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Map::{ctor}</FUNCTION>
+    <DECORATED>??0T_Map@@QAE@ULAYERINFO@@@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Map::hbmp_old</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Map.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Map::hbmp_old。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Map::{ctor}</FUNCTION>
+    <DECORATED>??0T_Map@@QAE@PA_W@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Map::hbmp_old</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Menu.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_Menu::lastIndex。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_Menu::{ctor}</FUNCTION>
+    <DECORATED>??0T_Menu@@QAE@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_Menu::lastIndex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Menu.cpp</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“sAlign”。</DESCRIPTION>
+    <FUNCTION>T_Menu::GetAlignment</FUNCTION>
+    <DECORATED>?GetAlignment@T_Menu@@IAE?AW4StringAlignment@Gdiplus@@XZ</DECORATED>
+    <FUNCLINE>227</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“sAlign”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==1”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“menu_info.align==2”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+        <FILENAME>T_Menu.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“sAlign”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Music.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>T_Music::getUniqueAlias</FUNCTION>
+    <DECORATED>?getUniqueAlias@T_Music@@AAEXXZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>152</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 LAYERINFO::type_id。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>LAYERINFO::{ctor}</FUNCTION>
+    <DECORATED>??0LAYERINFO@@QAE@XZ</DECORATED>
+    <FUNCLINE>152</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>LAYERINFO::type_id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>“WinMain”的批注不一致: 此实例包含 无批注。请参见 c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006)。</DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain@16</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>T_enginetest.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 T_enginetest::gameMenu。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>T_enginetest::{ctor}</FUNCTION>
+    <DECORATED>??0T_enginetest@@QAE@PAUHINSTANCE__@@PB_W1GGHHK@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>T_enginetest::gameMenu</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\TinyEngine\</FILEPATH>
+      <FILENAME>T_Config.h</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 MENUITEM::pos。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>MENUITEM::{ctor}</FUNCTION>
+    <DECORATED>??0MENUITEM@@QAE@XZ</DECORATED>
+    <FUNCLINE>159</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MENUITEM::pos</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>websocket.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 websocket::wsaData。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>websocket::{ctor}</FUNCTION>
+    <DECORATED>??0websocket@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>websocket::wsaData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

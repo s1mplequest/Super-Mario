@@ -1,0 +1,136 @@
+﻿  Fireball.cpp
+E:\第六版\第五版 测试\paint\paint\Fireball.cpp(5,11): error C2664: “T_Sprite::T_Sprite(std::wstring,int,int)”: 无法将参数 1 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\Fireball.cpp(6,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Sprite.h(72,2): message : 参见“T_Sprite::T_Sprite”的声明
+  flag.cpp
+E:\第六版\第五版 测试\paint\paint\flag.cpp(5,11): error C2664: “T_Sprite::T_Sprite(std::wstring,int,int)”: 无法将参数 1 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\flag.cpp(6,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Sprite.h(72,2): message : 参见“T_Sprite::T_Sprite”的声明
+  gameMusic.cpp
+  Goomba.cpp
+E:\第六版\第五版 测试\paint\paint\Goomba.cpp(4,11): error C2664: “T_Sprite::T_Sprite(std::wstring,int,int)”: 无法将参数 1 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\Goomba.cpp(5,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Sprite.h(72,2): message : 参见“T_Sprite::T_Sprite”的声明
+  information.cpp
+  Mario.cpp
+E:\第六版\第五版 测试\paint\paint\Mario.cpp(8,11): error C2664: “T_Sprite::T_Sprite(std::wstring,int,int)”: 无法将参数 1 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\Mario.cpp(9,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Sprite.h(72,2): message : 参见“T_Sprite::T_Sprite”的声明
+E:\第六版\第五版 测试\paint\paint\Mario.cpp(158,30): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\第六版\第五版 测试\paint\paint\Mario.cpp(165,30): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  MessageMenu.cpp
+  MushRoom.cpp
+E:\第六版\第五版 测试\paint\paint\MushRoom.cpp(4,11): error C2664: “T_Sprite::T_Sprite(std::wstring,int,int)”: 无法将参数 1 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\MushRoom.cpp(5,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Sprite.h(72,2): message : 参见“T_Sprite::T_Sprite”的声明
+  OnlinePlayer.cpp
+  Mymenu.cpp
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(42,5): error C2664: “size_t wcslen(const wchar_t *)”: 无法将参数 1 从“LPCTSTR”转换为“const wchar_t *”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(42,13): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h(132,25): message : 参见“wcslen”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(44,36): error C2664: “bool T_Graph::LoadImageFile(std::wstring)”: 无法将参数 1 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(44,36): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(32,7): message : 参见“T_Graph::LoadImageFile”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(53,5): error C2664: “size_t wcslen(const wchar_t *)”: 无法将参数 1 从“LPCTSTR”转换为“const wchar_t *”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(53,13): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h(132,25): message : 参见“wcslen”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(55,32): error C2664: “bool T_Graph::LoadImageFile(std::wstring)”: 无法将参数 1 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(55,32): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(32,7): message : 参见“T_Graph::LoadImageFile”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(121,41): error C2440: “初始化”: 无法从“const _Elem *”转换为“LPCTSTR”
+          with
+          [
+              _Elem=wchar_t
+          ]
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(121,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(122,13): error C2664: “void T_Graph::PaintText(HDC,Gdiplus::RectF,std::wstring,Gdiplus::REAL,std::wstring,Gdiplus::Color,Gdiplus::FontStyle,Gdiplus::StringAlignment)”: 无法将参数 3 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(123,62): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(80,14): message : 参见“T_Graph::PaintText”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(149,42): error C2440: “初始化”: 无法从“const _Elem *”转换为“LPCTSTR”
+          with
+          [
+              _Elem=wchar_t
+          ]
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(149,18): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(150,14): error C2664: “void T_Graph::PaintText(HDC,Gdiplus::RectF,std::wstring,Gdiplus::REAL,std::wstring,Gdiplus::Color,Gdiplus::FontStyle,Gdiplus::StringAlignment)”: 无法将参数 3 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(151,63): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(80,14): message : 参见“T_Graph::PaintText”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(161,42): error C2440: “初始化”: 无法从“const _Elem *”转换为“LPCTSTR”
+          with
+          [
+              _Elem=wchar_t
+          ]
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(161,18): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(162,14): error C2664: “void T_Graph::PaintText(HDC,Gdiplus::RectF,std::wstring,Gdiplus::REAL,std::wstring,Gdiplus::Color,Gdiplus::FontStyle,Gdiplus::StringAlignment)”: 无法将参数 3 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\Mymenu.cpp(163,62): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(80,14): message : 参见“T_Graph::PaintText”的声明
+  T_AI.cpp
+  T_Audio.cpp
+  T_Display.cpp
+  T_Engine.cpp
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Engine.cpp(189,13): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [9]”转换为“LPCSTR”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Engine.cpp(189,29): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Engine.cpp(269,13): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [9]”转换为“LPCSTR”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Engine.cpp(269,29): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+  T_Graph.cpp
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.cpp(89,64): error C2664: “HRSRC FindResourceA(HMODULE,LPCSTR,LPCSTR)”: 无法将参数 3 从“const wchar_t [4]”转换为“LPCSTR”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.cpp(89,58): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4161,1): message : 参见“FindResourceA”的声明
+  T_Map.cpp
+  T_Menu.cpp
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Menu.cpp(149,13): error C2664: “void T_Graph::PaintText(HDC,Gdiplus::RectF,std::wstring,Gdiplus::REAL,std::wstring,Gdiplus::Color,Gdiplus::FontStyle,Gdiplus::StringAlignment)”: 无法将参数 5 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Menu.cpp(150,77): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(80,14): message : 参见“T_Graph::PaintText”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Menu.cpp(177,14): error C2664: “void T_Graph::PaintText(HDC,Gdiplus::RectF,std::wstring,Gdiplus::REAL,std::wstring,Gdiplus::Color,Gdiplus::FontStyle,Gdiplus::StringAlignment)”: 无法将参数 5 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Menu.cpp(178,78): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(80,14): message : 参见“T_Graph::PaintText”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Menu.cpp(189,14): error C2664: “void T_Graph::PaintText(HDC,Gdiplus::RectF,std::wstring,Gdiplus::REAL,std::wstring,Gdiplus::Color,Gdiplus::FontStyle,Gdiplus::StringAlignment)”: 无法将参数 5 从“LPCTSTR”转换为“std::wstring”
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Menu.cpp(190,77): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Graph.h(80,14): message : 参见“T_Graph::PaintText”的声明
+  T_Music.cpp
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Music.cpp(42,4): error C2664: “MCIERROR mciSendStringA(LPCSTR,LPSTR,UINT,HWND)”: 无法将参数 1 从“const _Elem *”转换为“LPCSTR”
+          with
+          [
+              _Elem=wchar_t
+          ]
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Music.cpp(42,46): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(78,1): message : 参见“mciSendStringA”的声明
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Music.cpp(53,58): error C2664: “MCIERROR mciSendStringA(LPCSTR,LPSTR,UINT,HWND)”: 无法将参数 1 从“const _Elem *”转换为“LPCSTR”
+          with
+          [
+              _Elem=wchar_t
+          ]
+E:\第六版\第五版 测试\paint\paint\TinyEngine\T_Music.cpp(53,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(78,1): message : 参见“mciSendStringA”的声明
+  T_Scene.cpp
+  T_Sprite.cpp
+  正在生成代码...
+  正在编译...
+  T_Util.cpp
+  T_enginetest.cpp
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(11,34): error C2440: “初始化”: 无法从“const wchar_t [11]”转换为“LPCTSTR”
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(11,19): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(212,61): error C2664: “Goomba::Goomba(LPCTSTR,int,int,int,int)”: 无法将参数 1 从“const wchar_t [17]”转换为“LPCTSTR”
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(212,31): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\Goomba.h(9,2): message : 参见“Goomba::Goomba”的声明
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(235,51): error C2664: “Mario::Mario(LPCTSTR,int,int,int,int)”: 无法将参数 1 从“const wchar_t [17]”转换为“LPCTSTR”
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(235,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\Mario.h(33,2): message : 参见“Mario::Mario”的声明
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(277,31): warning C4244: “参数”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(416,77): error C2664: “Fireball::Fireball(LPCTSTR,int,int,int,int)”: 无法将参数 1 从“const wchar_t [25]”转换为“LPCTSTR”
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(416,39): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\Fireball.h(9,2): message : 参见“Fireball::Fireball”的声明
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(464,66): error C2664: “MushRoom::MushRoom(LPCTSTR,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPCTSTR”
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(464,34): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\MushRoom.h(9,3): message : 参见“MushRoom::MushRoom”的声明
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(471,33): warning C4244: “参数”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(488,48): error C2664: “Flag::Flag(LPCTSTR,int,int,int,int)”: 无法将参数 1 从“const wchar_t [16]”转换为“LPCTSTR”
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(488,18): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+E:\第六版\第五版 测试\paint\paint\flag.h(7,2): message : 参见“Flag::Flag”的声明
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(803,31): error C2440: “=”: 无法从“const wchar_t [3]”转换为“LPCTSTR”
+E:\第六版\第五版 测试\paint\paint\T_enginetest.cpp(803,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+  websocket.cpp
+E:\第六版\第五版 测试\paint\paint\websocket.cpp(45,20): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...

@@ -1,0 +1,10 @@
+﻿  information.cpp
+c:\users\lenovo\onedrive\桌面\paint\paint\paint\t_enginetest.h(49): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+c:\users\lenovo\onedrive\桌面\paint\paint\paint\t_enginetest.h(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\lenovo\onedrive\桌面\paint\paint\paint\t_enginetest.h(49): error C2238: 意外的标记位于“;”之前
+  T_enginetest.cpp
+c:\users\lenovo\onedrive\桌面\paint\paint\paint\t_enginetest.cpp(71): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lenovo\onedrive\桌面\paint\paint\paint\t_enginetest.cpp(151): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lenovo\onedrive\桌面\paint\paint\paint\t_enginetest.cpp(269): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lenovo\onedrive\桌面\paint\paint\paint\t_enginetest.cpp(691): error C3867: “information::LoadImageRes”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  正在生成代码...

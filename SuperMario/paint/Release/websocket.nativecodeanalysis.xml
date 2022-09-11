@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>websocket.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 websocket::wsaData。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>websocket::{ctor}</FUNCTION>
+    <DECORATED>??0websocket@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>websocket::wsaData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>websocket.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 websocket::hSocket。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>websocket::{ctor}</FUNCTION>
+    <DECORATED>??0websocket@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>websocket::hSocket</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\第六版\第五版 测试\paint\paint\</FILEPATH>
+      <FILENAME>websocket.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 websocket::servAdr。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>websocket::{ctor}</FUNCTION>
+    <DECORATED>??0websocket@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>websocket::servAdr</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
